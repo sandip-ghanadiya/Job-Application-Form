@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2020 at 11:24 AM
+-- Generation Time: Nov 25, 2020 at 05:17 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -44,20 +44,7 @@ CREATE TABLE `aplform` (
 
 INSERT INTO `aplform` (`id`, `name`, `email`, `phone`, `age`, `exp`, `skill`, `resume`) VALUES
 (1, 'Sandip', 'sandip@gmail.com', '8320194378', 21, 1, 'php', 'resume'),
-(2, 'vijay', 'vijay@gmail.com', '091-25-521', 25, 0, '', ''),
-(3, 'vijay', 'vijay@gmail.com', '091-25-521', 25, 0, '', ''),
-(4, 'Ghanandiya', 'sandip@gmail.com', '091-25-521', 21, 0, '', ''),
-(5, 'Ghanandiya', 'sandip@gmail.com', '091-25-521', 21, 0, 'php', 'resume'),
-(6, 'ssfsd', 'vijay@gmail.com', '091-25-521', 25, 1, 'php', ''),
-(7, 'ssfsd', 'vijay@gmail.com', '091-25-521', 25, 1, 'php', ''),
-(8, 'ssfsd', 'vijay@gmail.com', '091-25-521', 25, 1, 'php', ''),
-(11, 'sandipppp', 'sandipghanadiya@gmail.com', '9874563210', 26, 2, 'php', ''),
-(12, 'sandipppp', 'sandipghanadiya@gmail.com', '9874563210', 26, 2, 'php', ''),
-(14, 'pagal', 'pagal@gmail.com', '1234567890', 25, 0, 'php', ''),
-(15, 'pagal', 'pagal@gmail.com', '1234567890', 25, 0, 'php', ''),
-(16, 'pagal', 'pagal@gmail.com', '1234567890', 25, 0, 'php', ''),
-(17, 'Ghanandiya', 'sandip@gmail.com', '8320194378', 25, 0, 'php', ''),
-(18, 'Ghanandiya', 'sandip@gmail.com', '8320194378', 25, 0, 'php', '');
+(33, 'Ghanandiya', 'sandip@gmail.com', '1111111111', 25, 2, 'HR-Exucutive', '6012-sandip Ghanadiya final.pdf');
 
 --
 -- Indexes for dumped tables
@@ -77,7 +64,7 @@ ALTER TABLE `aplform`
 -- AUTO_INCREMENT for table `aplform`
 --
 ALTER TABLE `aplform`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
